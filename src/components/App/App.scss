@@ -1,0 +1,52 @@
+.app {
+  width: 100vw;
+  height: 100vh;
+
+  background-color: rgb(0, 20, 50);
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 100px 1fr 100px;
+  grid-template-areas:
+    'header header'
+    'editor preview'
+    'footer footer';
+
+  overflow: hidden;
+}
+
+.header {
+  position: relative;
+
+  grid-area: header;
+
+  padding: 16px;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.editor {
+  position: relative;
+
+  grid-area: editor;
+}
+
+.preview {
+  position: relative;
+
+  grid-area: preview;
+}
+
+.footer {
+  position: relative;
+
+  grid-area: footer;
+
+  padding: 16px;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}

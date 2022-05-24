@@ -1,0 +1,9 @@
+{
+  "printWidth": 80,
+  "singleQuote": true,
+  "trailingComma": "all",
+
+  "importOrder": ["^@mui/(.*)$", "^[./](.*)(?<!\\.scss)$", "\\.scss$"],
+  "importOrderSeparation": true,
+  "importOrderSortSpecifiers": true
+}
